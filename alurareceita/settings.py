@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'pessoas',
     'receitas',
     'usuarios',
     'django.contrib.admin',
@@ -79,7 +78,7 @@ WSGI_APPLICATION = 'alurareceita.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'alura_receita',
+        'NAME': 'alura_receita2',
         'USER': 'postgres',
         'PASSWORD': '12154763',
         'HOST': 'localhost'
